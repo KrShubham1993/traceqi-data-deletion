@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traceqi | Privacy Policy & Data Deletion</title>
     <style>
-        :root { --primary: #15803d; --text: #374151; --bg: #f9fafb; }
+        :root { --primary: #15803d; --text: #374151; --bg: #f9fafb; --accent: #ecfdf5; }
         body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; padding: 20px; }
         .container { max-width: 800px; margin: 40px auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
         h1, h2 { color: var(--primary); }
-        h1 { border-bottom: 2px solid #ecfdf5; padding-bottom: 10px; margin-bottom: 30px; }
-        .last-updated { color: #6b7280; font-size: 0.9rem; margin-bottom: 30px; }
-        .section { margin-bottom: 30px; }
+        h1 { border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 30px; }
+        .last-updated { color: #6b7280; font-size: 0.9rem; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .section { margin-bottom: 35px; }
         .deletion-box { background: #fef2f2; border: 1px solid #fee2e2; padding: 25px; border-radius: 8px; margin-top: 40px; }
-        .btn { display: inline-block; background: #dc2626; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 15px; }
+        .btn { display: inline-block; background: #dc2626; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 15px; transition: background 0.2s; }
+        .btn:hover { background: #b91c1c; }
         ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
+        li { margin-bottom: 10px; }
+        strong { color: #111827; }
     </style>
 </head>
 <body>
@@ -25,36 +27,59 @@
 
         <div class="section">
             <h2>1. Introduction</h2>
-            <p>Welcome to Traceqi. We value your privacy and are committed to protecting your personal data. This policy explains how we handle your information when you use our mobile application to connect with people you've crossed paths with.</p>
+            <p>Welcome to Traceqi. We value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and disclose information when you use our mobile application to connect with people you've crossed paths with.</p>
         </div>
 
         <div class="section">
             <h2>2. Data We Collect</h2>
             <ul>
-                <li><strong>Personal Information:</strong> Name, email, phone number, and Instagram ID (only if explicitly provided).</li>
-                <li><strong>Location Data:</strong> We <strong>do not</strong> track live background location. We only process location data you manually enter to find relevant matches at specific times.</li>
+                <li><strong>Personal Information:</strong> We may collect your name, email address, phone number, and Instagram ID only if you explicitly provide them during account creation or profile updates.</li>
+                <li><strong>Location Data:</strong> We <strong>do not</strong> track your live location in the background. We only collect location data that you manually enter into our search form to filter relevant matches.</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>3. Purpose & Third Parties</h2>
-            <p>We use data solely to perform filtering for matches and facilitate connection requests. We use Google Analytics for performance monitoring; they access only necessary, non-identifiable data under strict confidentiality.</p>
+            <h2>3. Purpose of Data Collection</h2>
+            <p>We use your data solely to:</p>
+            <ul>
+                <li>Perform filtering operations to match users present at the same location/time.</li>
+                <li>Notify you when a match is found.</li>
+                <li>Facilitate connection requests between users.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Third-Party Services</h2>
+            <p>We use third-party services like Google Analytics to monitor app performance. These parties only have access to data necessary to perform their tasks and are contractually obligated to keep it confidential.</p>
         </div>
 
         <div id="deletion" class="section deletion-box">
-            <h2>5. Data Retention & Deletion</h2>
-            <p>We retain your data only as long as your account is active. <strong>You have the right to be forgotten.</strong></p>
-            <p>To delete your account and all associated data (PII, images, and history):</p>
-            <ul>
-                <li><strong>In-App:</strong> Go to Profile > Tap "Delete Account".</li>
-                <li><strong>Via Web:</strong> Click the button below to request manual deletion via email.</li>
-            </ul>
-            <a href="mailto:traceqiteam@gmail.com?subject=Account Deletion Request" class="btn">Request Data Deletion</a>
+            <h2>5. Data Retention, Security, and Deletion</h2>
+            <p><strong>Security:</strong> We use industry-standard SSL encryption to protect your data during transmission.</p>
+            <p><strong>Retention:</strong> We retain your data only as long as your account is active.</p>
+            <p><strong>Deletion:</strong> You can delete your account and all associated data at any time via the "Delete Account" button in the app profile. Alternatively, use the form below:</p>
+            <a href="mailto:traceqiteam@gmail.com?subject=Account Deletion Request" class="btn">Request Data Deletion via Email</a>
+        </div>
+
+        <div class="section">
+            <h2>6. Your Rights (DPDP Act & GDPR)</h2>
+            <p>You have the right to access your data, correct inaccuracies, withdraw your consent for data processing, and request the permanent deletion of your information (the "Right to be Forgotten").</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Children's Privacy</h2>
+            <p>Traceqi requires users to be at least 13 years of age. We do not intentionally collect personal information from children under 13. If you believe a child has provided us with data, please contact us immediately for removal.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Changes to This Policy</h2>
+            <p>We may update this policy periodically. We will notify you of changes by updating the "Last Updated" date at the top of this page.</p>
         </div>
 
         <div class="section">
             <h2>9. Contact Us</h2>
-            <p>Questions? Contact us at: <a href="mailto:traceqiteam@gmail.com">traceqiteam@gmail.com</a></p>
+            <p>For questions or formal data requests, contact us at:<br>
+            <strong>Email:</strong> <a href="mailto:traceqiteam@gmail.com" style="color: var(--primary);">traceqiteam@gmail.com</a></p>
         </div>
     </div>
 </body>
