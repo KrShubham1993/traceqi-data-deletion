@@ -3,28 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traceqi | Data Deletion Request</title>
+    <title>Traceqi | Privacy Policy & Data Deletion</title>
     <style>
-        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 40px auto; padding: 20px; }
-        .card { border: 1px solid #eee; padding: 30px; border-radius: 12px; shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        h1 { color: #15803d; } /* Matching your green theme */
-        .btn { display: inline-block; background: #dc2626; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 20px; }
+        :root { --primary: #15803d; --text: #374151; --bg: #f9fafb; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: 40px auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        h1, h2 { color: var(--primary); }
+        h1 { border-bottom: 2px solid #ecfdf5; padding-bottom: 10px; margin-bottom: 30px; }
+        .last-updated { color: #6b7280; font-size: 0.9rem; margin-bottom: 30px; }
+        .section { margin-bottom: 30px; }
+        .deletion-box { background: #fef2f2; border: 1px solid #fee2e2; padding: 25px; border-radius: 8px; margin-top: 40px; }
+        .btn { display: inline-block; background: #dc2626; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Delete Your Traceqi Account</h1>
-        <p>We value your privacy. When you request to delete your account, the following happens:</p>
-        <ul>
-            <li>Your profile (Name, Bio, Images) is permanently removed from S3 and our database.</li>
-            <li>Your search and interaction history is erased.</li>
-            <li>All active access requests are canceled.</li>
-        </ul>
-        <p><strong>How to delete:</strong></p>
-        <p>1. Open the Traceqi app > Go to <strong>Profile</strong>.</p>
-        <p>2. Tap the <strong>Delete Account</strong> button at the bottom.</p>
-        <p>Alternatively, email us at <strong>traceqiteam@gmail.com</strong> from your registered email address, and we will process your request within 48 hours.</p>
-        <a href="mailto:traceqiteam@gmail.com?subject=Account Deletion Request" class="btn">Request Deletion via Email</a>
+    <div class="container">
+        <h1>Privacy Policy for Traceqi</h1>
+        <p class="last-updated">Last Updated: April 2, 2026</p>
+
+        <div class="section">
+            <h2>1. Introduction</h2>
+            <p>Welcome to Traceqi. We value your privacy and are committed to protecting your personal data. This policy explains how we handle your information when you use our mobile application to connect with people you've crossed paths with.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Data We Collect</h2>
+            <ul>
+                <li><strong>Personal Information:</strong> Name, email, phone number, and Instagram ID (only if explicitly provided).</li>
+                <li><strong>Location Data:</strong> We <strong>do not</strong> track live background location. We only process location data you manually enter to find relevant matches at specific times.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Purpose & Third Parties</h2>
+            <p>We use data solely to perform filtering for matches and facilitate connection requests. We use Google Analytics for performance monitoring; they access only necessary, non-identifiable data under strict confidentiality.</p>
+        </div>
+
+        <div id="deletion" class="section deletion-box">
+            <h2>5. Data Retention & Deletion</h2>
+            <p>We retain your data only as long as your account is active. <strong>You have the right to be forgotten.</strong></p>
+            <p>To delete your account and all associated data (PII, images, and history):</p>
+            <ul>
+                <li><strong>In-App:</strong> Go to Profile > Tap "Delete Account".</li>
+                <li><strong>Via Web:</strong> Click the button below to request manual deletion via email.</li>
+            </ul>
+            <a href="mailto:traceqiteam@gmail.com?subject=Account Deletion Request" class="btn">Request Data Deletion</a>
+        </div>
+
+        <div class="section">
+            <h2>9. Contact Us</h2>
+            <p>Questions? Contact us at: <a href="mailto:traceqiteam@gmail.com">traceqiteam@gmail.com</a></p>
+        </div>
     </div>
 </body>
 </html>
